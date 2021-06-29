@@ -42,7 +42,7 @@ before_install:
   - pip install -U pip
   - pip install -U pytest
   - pip install codecov
-  - python3 -m pip install pycairo
+  - sudo apt install python3-cairo-dev python3-cairo
   - pip install --upgrade setuptools wheel
 install:
   - pip install -r requirements.txt # install package + test dependencies
