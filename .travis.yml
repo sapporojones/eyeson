@@ -17,7 +17,7 @@ jobs:
         - python -m pip install --upgrade pip
         - python -m pip install --upgrade codecov pytest
         - pip install --upgrade setuptools wheel
-        - pip install --no-use-pep517 pycairo
+
       env: PATH=/c/Python37:/c/Python37/Scripts:$PATH
     - name: "Python 3.8.8 on Windows"
       os: windows           # Windows 10.0.17134 N/A Build 17134
@@ -42,6 +42,8 @@ before_install:
   - pip install -U pip
   - pip install -U pytest
   - pip install codecov
+  - pip install --no-use-pep517 pycairo
+  - pip install --upgrade setuptools wheel
 install:
   - pip install -r requirements.txt # install package + test dependencies
 script: pytest # run tests
