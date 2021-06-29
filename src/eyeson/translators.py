@@ -9,7 +9,6 @@ from rich.console import Console
 from rich.table import Table
 
 
-
 def timestamper(timestamp):
     """
     Converts timestamps from json to NhNmNs output in a formatted string

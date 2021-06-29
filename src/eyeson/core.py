@@ -117,7 +117,9 @@ def fill_in_object(vic, kill_id, kill_hash):
     :param kill_hash: Kill hash fetched from zKillboard
     :return: Returns a Victim object with defined attributes
     """
-    mail_obj = requests.get(f"https://esi.evetech.net/latest/killmails/{kill_id}/{kill_hash}/")
+    mail_obj = requests.get(
+        f"https://esi.evetech.net/latest/killmails/{kill_id}/{kill_hash}/"
+    )
 
     mail_json = mail_obj.json()
     kd_json = mail_json["killmail_time"]
@@ -200,6 +202,3 @@ def create_table(vic_list):
             v.aliceticker,
         )
     return table
-
-
-

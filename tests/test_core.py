@@ -1,6 +1,9 @@
 import pytest
 
+from rich.table import Table
+
 from src.eyeson import core
+
 
 @pytest.fixture
 def get_id():
@@ -48,8 +51,3 @@ def test_fill_in_object():
     kill_hash = "b3dd6172ed69518da0484796b18bb5b5c0695c88"
     core.fill_in_object(victim, kill_id, kill_hash)
     assert victim.name != 0
-
-
-
-
-

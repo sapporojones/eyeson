@@ -2,6 +2,7 @@ import pytest
 
 from src.eyeson import translators
 
+
 @pytest.fixture
 def get_id():
     sys_id = 30004759
@@ -31,4 +32,3 @@ def test_id2name(get_id):
 def test_timestamper(get_timestamp):
     ts = translators.timestamper(get_timestamp)
     assert "ago" in ts
-

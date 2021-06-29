@@ -24,19 +24,7 @@ def get_timestamp():
     return timestamp
 
 
-
-
-
-
-
-
 # def test_fill_lists():
 #     test_dict = getkillsdict(sys_id, 1)
 #     out_list = fill_lists(test_dict)
 #     assert len(out_list) == 1
-
-
-
-
-
-
