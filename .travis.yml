@@ -39,7 +39,7 @@ jobs:
 #      env: PATH=/c/Python39:/c/Python39/Scripts:$PATH
 before_install:
   - python --version
-  - sudo apt install build-essential
+  - sudo apt install python3-devel
   - pip install -U pip
   - pip install -U pytest
   - pip install codecov
