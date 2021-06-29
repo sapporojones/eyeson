@@ -1,10 +1,6 @@
 import pytest
 
 from src.eyeson import translators
-from src.eyeson import core
-
-sys_id = 30004759
-
 
 @pytest.fixture
 def get_id():
@@ -24,19 +20,15 @@ def get_timestamp():
     return timestamp
 
 
+def test_name2id(get_name, get_id):
+    assert translators.name2id(get_name) == get_id
 
 
+def test_id2name(get_id):
+    assert translators.id2name(get_id) == "1DQ1-A"
 
 
-
-
-# def test_fill_lists():
-#     test_dict = getkillsdict(sys_id, 1)
-#     out_list = fill_lists(test_dict)
-#     assert len(out_list) == 1
-
-
-
-
-
+def test_timestamper(get_timestamp):
+    ts = translators.timestamper(get_timestamp)
+    assert "ago" in ts
 
