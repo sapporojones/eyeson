@@ -39,11 +39,10 @@ jobs:
 #      env: PATH=/c/Python39:/c/Python39/Scripts:$PATH
 before_install:
   - python --version
-  - sudo apt install python3-devel
   - pip install -U pip
   - pip install -U pytest
   - pip install codecov
-  - pip install pycairo --no-cache
+  - python3 -m pip install pycairo
   - pip install --upgrade setuptools wheel
 install:
   - pip install -r requirements.txt # install package + test dependencies
