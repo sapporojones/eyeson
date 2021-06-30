@@ -34,7 +34,7 @@ def main(requested_system, number_of_rows):
 
     obj_list = core.create_objects(num_kills)
     filled_vic_list = []
-    with ThreadPoolExecutor(max_workers=5) as executor:
+    with ThreadPoolExecutor(max_workers=3) as executor:
         future_result = executor.map(
             core.fill_in_object, obj_list, kill_list, hash_list
         )
