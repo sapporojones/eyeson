@@ -1,7 +1,7 @@
 language: python
 # ===== Linux ======
 os: linux
-dist: xenial
+dist: hippo
 python:
   - 3.7
   - 3.8
