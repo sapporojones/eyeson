@@ -63,42 +63,4 @@ Usage Examples
   * returns the default number of losses in the system 0WXT-S.
 
 
-Changelog
-=========
-
-
-All notable changes to this project will be documented in this file.
-
-The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
-and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.html).
-
-[v1.1.0](https://github.com/sapporojones/eyeson/releases/tag/v1.1.0) - 2021-06-30
----------------------------------------------------------------------------------
-
-<small>[Compare with v1.0.1](https://github.com/sapporojones/eyeson/compare/v1.0.1...v1.1.0)</small>
-
-**Added**
-
-* Adding github actions dependabot, release drafter, greetings, some templates ([5c22304](https://github.com/sapporojones/eyeson/commit/5c223043c7de37722f7ce9f8891dd6f8d8311ff8) by sapporojones).
-
-
-[v1.0.1](https://github.com/sapporojones/eyeson/releases/tag/v1.0.1) - 2021-06-30
----------------------------------------------------------------------------------
-
-<small>[Compare with v1.0.0](https://github.com/sapporojones/eyeson/compare/v1.0.0...v1.0.1)</small>
-
-
-[v1.0.0](https://github.com/sapporojones/eyeson/releases/tag/v1.0.0) - 2021-06-30
----------------------------------------------------------------------------------
-
-<small>[Compare with first commit](https://github.com/sapporojones/eyeson/compare/8cd6fca1a3c70fec86bdd99843b58675f74b1642...v1.0.0)</small>
-
-**Changed**
-
-- Changes in pip usage ([71006e3](https://github.com/sapporojones/eyeson/commit/71006e3d755059015b0ed8249e117776d7163698) by sapporojones).
-
-**Fixed**
-
-- Fixing yaml formatting errors for .travis.yml ([4224d4e](https://github.com/sapporojones/eyeson/commit/4224d4ea2baa50dbe5588a794f6d7becc36998a9) by sapporojones).
-
 
