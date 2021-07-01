@@ -1,5 +1,5 @@
 ﻿appdirs==1.4.4
-arrow==0.17.0
+arrow==1.1.1
 atomicwrites==1.4.0
 attrs==20.3.0
 binaryornot==0.4.4
