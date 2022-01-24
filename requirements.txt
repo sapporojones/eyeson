@@ -24,7 +24,7 @@ filelock==3.0.12
 flake8==3.8.4
 gitchangelog==3.0.4
 html5lib==1.1
-identify==1.5.13
+identify==2.4.5
 idna==2.10
 iniconfig==1.1.1
 Jinja2==2.11.3
